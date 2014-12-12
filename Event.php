@@ -6,6 +6,6 @@ class Event
 {
 	public static function ipBeforeController()
 	{
-		//ipAddCss('assets/event.css');
+		ipAddJs('assets/event.js');
 	}
 }

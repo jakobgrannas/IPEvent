@@ -104,6 +104,30 @@ class AdminController
 			));
 		$form->addField($field);
 
+		$field = new \Ip\Form\Field\Text(
+			array(
+				'name' => 'eventTimeFrom',
+				'label' => __('Event starts at (eg. "18:00")', 'Event', false),
+				'value' => empty($widgetData['eventTimeFrom']) ? null : $widgetData['eventTimeFrom']
+			));
+		$form->addField($field);
+
+		$field = new \Ip\Form\Field\Text(
+			array(
+				'name' => 'eventTimeTo',
+				'label' => __('Event ends at (eg. "23:00")', 'Event', false),
+				'value' => empty($widgetData['eventTimeTo']) ? null : $widgetData['eventTimeTo']
+			));
+		$form->addField($field);
+
+		$field = new \Ip\Form\Field\Text(
+			array(
+				'name' => 'eventLocation',
+				'label' => __('Event location', 'Event', false),
+				'value' => empty($widgetData['eventLocation']) ? null : $widgetData['eventLocation']
+			));
+		$form->addField($field);
+
 		$field = new \Ip\Form\Field\RichText(
 			array(
 				'name' => 'textPrimary',
@@ -118,6 +142,23 @@ class AdminController
 				'label' => __('Second text field', 'Event', false),
 				'value' => empty($widgetData['textSecondary']) ? null : $widgetData['textSecondary']
 			));
+		$form->addfield($field);
+
+		$field = new \Ip\Form\Field\Text(
+			array(
+				'name' => 'buttonText',
+				'label' => __('Custom button text', 'Event'),
+				'value' => empty($widgetData['buttonText']) ? null : $widgetData['buttonText']
+			));
+		$form->addfield($field);
+
+		$field = new \Ip\Form\Field\Text(
+			array(
+				'name' => 'url',
+				'label' => __('Button URL', 'Event'),
+				'value' => empty($widgetData['url']) ? null : $widgetData['url']
+			));
+		$field->addValidator('Required');
 		$form->addfield($field);
 
 		$field = new \Ip\Form\Field\Text(

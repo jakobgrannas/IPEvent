@@ -1,15 +1,15 @@
 {
 	"First text field": "Första textfältet",
 	"Second text field": "Andra textfältet",
-	"Image": "Bild",
-	"None (use image)": "Ingen (använd bild)",
-	"Heart": "Hjärta",
-	"Thumbs up": "Tummen upp",
-	"Star": "Stjärna",
-	"Telephone": "Telefon",
-	"Envelope": "Brev",
-	"Icon": "Ikon",
 	"CSS classes (optional)": "CSS-klasser (frivilligt)",
-	"Edit me!": "Ändra mig!",
-	"Edit me as well!": "Ändra mig också!"
+	"Read less": "Läs mindre",
+	"Time": "Tid",
+	"Location": "Plats",
+	"Event day (eg. \"31\")": "Dag (t.ex. \"31\")",
+	"Event month (eg. \"Jan\")": "Månad (t.ex. \"Jan\")",
+	"Event starts at (eg. \"18:00\")": "Evenemanget börjar klockan (t.ex. \"18:00\")",
+	"Event ends at (eg. \"23:00\")": "Evenemanget slutar klockan (t.ex. \"23:00\")",
+	"Event location": "Plats för evenemanget",
+	"Custom button text": "Egen knapptext",
+	"Button URL": "Knapp-länk (URL)"
 }
