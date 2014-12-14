@@ -42,7 +42,7 @@
 
 		<?php if (!empty($url)) :?>
 			<a href="<?php echo esc($url); ?>" class="event__read-more button-small--secondary" data-read-less="<?php _e('Read less', 'Event'); ?>">
-				<?php echo !empty($buttonText) ? $buttonText : __('Read more', 'Event'); ?>
+				<?php _e('Read more', 'Event'); ?>
 			</a>
 		<?php endif; ?>
 	</div>
